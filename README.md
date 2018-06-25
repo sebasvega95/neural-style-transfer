@@ -18,7 +18,7 @@ downloaded the [MS COCO 2014 dataset](http://cocodataset.org/#download) and put
 the training images to `data/train`. We can train a model to apply the style of
 `images/style/wave.jpg` with the command
 
-```python
+```sh
 python3 train.py --style=images/style/wave.jpg --train_path=data/train --weights_path=weights/wave.hdf5
 ```
 
@@ -38,13 +38,13 @@ We can style new content images from a path or from a webcam 📷.
 For example, for styling `images/content/viaducto.jpg` with weights located
 in `weights/wave.hdf5` run
 
-```python
+```sh
 python3 style.py  --content=images/content/viaducto.jpg --weights=weights/wave.hdf5
 ```
 
 For styling from a webcam feed, run
 
-```python
+```sh
 python3 style.py --weights=weights/wave.hdf5 --webcam
 ```
 
