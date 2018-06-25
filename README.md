@@ -67,8 +67,13 @@ is specified.
 
 ## Weights
 
-These are the weights used for some style images (which can be found in
-`images/style/`)
+Weights for models trained on the style images found in `images/style/` can be
+found under [releases](https://github.com/sebasvega95/neural-style-transfer/releases).
+
+## Loss weights
+
+These are the loss weights used during training for some style images
+(which can be found in `images/style/`)
 
 - `wave`:
   - Content weight: 1
