@@ -80,6 +80,6 @@ These are the loss weights used during training for some style images
   - Style weight: 100
   - Total variation weight: 1e-5
 - `mosaic`:
-  - content: 3
+  - Content weight: 3
   - Style weight: 100
   - Total variation weight: 1e-5
